@@ -1,6 +1,0 @@
-#ignore class files
-*.class
-
-#ignore binary files
-*.exe
-*.bin
