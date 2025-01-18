@@ -1,5 +1,5 @@
 class Solution {
-    //Function for Two_Sum alogirthm.
+    //Function for TwoSum alogirthm.
     public int[] twoSum(int[] nums, int target) {
         int[] targetPair = new int[2];
         for (int index1 = 0; index1 < nums.length; index1++) {
@@ -24,8 +24,8 @@ public class TwoSum {
     public static void main(String[] args) {
         int arr[] = { 2, 7, 11, 15 };  //given array
         int target = 9;  //required target
-        Solution  Obj= new Solution();
-        int targetPair[] = Obj.twoSum(arr, target); //stores the resultant pair
+        Solution  obj= new Solution();
+        int targetPair[] = obj.twoSum(arr, target); //stores the resultant pair
         for (int targetIndex : targetPair)
             System.out.println(targetIndex);
     }
